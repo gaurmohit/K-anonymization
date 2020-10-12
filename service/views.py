@@ -49,5 +49,5 @@ def show_all(request):
 def del_all(request):
     task = ThreadManage.objects.all()
     task.delete()
-    task.save()
+    # task.save()
     return HttpResponse("all objects deleted")

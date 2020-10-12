@@ -1,4 +1,7 @@
 import pandas as pd
+import matplotlib
+import tkinter
+matplotlib.use('TkAgg')
 import matplotlib.pylab as pl
 import matplotlib.patches as patches
 
